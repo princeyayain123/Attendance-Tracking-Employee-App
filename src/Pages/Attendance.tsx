@@ -1,4 +1,3 @@
-import CalendarComponent from "../Components/Components/CalendarComponent";
 import PieChart from "../Components/Components/PieChart";
 import Table from "../Components/Components/Table";
 const Attendance = () => {
@@ -11,7 +10,6 @@ const Attendance = () => {
               <Table></Table>
             </div>
             <div className="col-span-4 sm:col-span-12 lg:col-span-3 lg:col-span-3 w-full py-4 flex flex-col sm:flex-row lg:flex-col items-center justify-center gap-8">
-              {/* <CalendarComponent /> */}
               <PieChart />
             </div>
           </div>
